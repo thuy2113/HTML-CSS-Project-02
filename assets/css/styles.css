@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #ffb900;
+    --secondary-color: #171100;
+}
+
+html,
+body {
+    scroll-behavior: smooth;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "Poppins", "Sen", Arial, sans-serif;
+    font-size: 1.6rem;
+}
+
+/* ============ Common ============ */
+a {
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.content {
+    width: 1170px;
+    max-width: calc(100% - 48px);
+    margin: 0 auto;
+}
+
+/* ============= Header =============== */
+.header {
+    /* width: 1440px; */
+    background: #fffcf4;
+}
+
+.header .navbar {
+    padding-top: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header .nav-list {
+    display: flex;
+    gap: 42px;
+    /* margin-right: 70px; */
+}
+
+.header .action {
+    /* margin-right: 0; */
+}
